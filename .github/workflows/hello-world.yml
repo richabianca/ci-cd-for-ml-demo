@@ -27,10 +27,10 @@ jobs:
         uses: actions/setup_python@v4
         with:
           python-version: 3.9
-      - name: Run Python-script
+      - name: Run Python script
         run: |
           echo hello_world.py
-          python hello_world.py
+          python3 hello_world.py
 
       # Runs a single command using the runners shell
       
